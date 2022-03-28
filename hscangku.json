@@ -5,7 +5,7 @@
   "cateName": "/text()",
   "cateId": "/@href",
   "cateIdR": "/vodtype/(\\d+).html",
-  "cateManual": {},
+  "cateManual": {"无码中文字幕": "8","有码中文字幕": "9", "日本有码": "10","日本无码": "7","国产视频": "15", "欧美高清": "21","动漫高清": "22"},
   "homeVodNode": "//ul[contains(@class,'stui-vodlist')]/li/div/a[@title]",
   "homeVodName": "/@title",
   "homeVodId": "/@href",
