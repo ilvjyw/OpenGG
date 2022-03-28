@@ -1,6 +1,6 @@
 {
   "ua": "",
-  "homeUrl": "htp://666358.xyz",
+  "homeUrl": "http://666358.xyz",
   "cateNode": "//ul[contains(@class,'stui-pannel__menu')]/li/a[contains(@href, '.html')]",
   "cateName": "/text()",
   "cateId": "/@href",
