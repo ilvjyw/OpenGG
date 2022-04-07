@@ -1,4 +1,5 @@
 {"sites":[
+  {"key":"csp_xpath_javcaptain","name":"javcaptain🔞(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://hk1.monika.love/ilvjyw/OpenGG/master/javcaptain.json"}
   {"key":"csp_xpath_hscangku","name":"黄色仓库🔞(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://hk1.monika.love/ilvjyw/OpenGG/master/hscangku.json"},
   {"key":"csp_xpath_ttsp","name":"天天视频🔞(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://hk1.monika.love/ilvjyw/OpenGG/master/ttsp.json"},
   {"key":"csp_77","name":"77(爬虫)","type":3,"api":"csp_Kunyu77","searchable":1,"quickSearch":1,"filterable":1},
