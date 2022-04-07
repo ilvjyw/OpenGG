@@ -1,7 +1,7 @@
 {
 	"ua": "",
     // 首页地址 用于获取 分类和首页推荐 
-	"homeUrl": "http://666374.xyz",
+	"homeUrl": "http://882839.xyz",
     // 分类节点
 	"cateNode": "//ul[contains(@class,'stui-pannel__menu')]/li/a[contains(@href, '.html')]",
     // 分类名
@@ -31,7 +31,7 @@
     // 二次处理正则
     "homeVodMarkR": "",
     // 分类页地址 {cateId} 分类id {catePg} 当前页
-	"cateUrl": "http://666374.xyz/vodtype/{cateId}-{catePg}.html",
+	"cateUrl": "http://882839.xyz/vodtype/{cateId}-{catePg}.html",
     // 同上面的homeVod字段 分类列表中的视频信息
 	"cateVodNode": "//ul[contains(@class,'stui-vodlist')]/li/div/a[@title]",
 	"cateVodName": "/@title",
@@ -40,7 +40,7 @@
 	"cateVodImg": "/@data-original",
 	"cateVodMark": "/span[@class='pic_text text_right']/text()",
     // 详情页地址 用于获取详情页信息 及 播放列表和地址
-	"dtUrl": "http://666374.xyz/vodplay/{vid}-1-1.html",
+	"dtUrl": "http://882839.xyz/vodplay/{vid}-1-1.html",
     // 详情节点
 	"dtNode": "//body",
     // 视频名
@@ -69,7 +69,7 @@
     // 二次处理正则
 	"dtUrlNameR": "",
     // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
-	"playUrl": "http://666374.xyz/vodplay/{playUrl}-1-1.html",
+	"playUrl": "http://882839.xyz/vodplay/{playUrl}-1-1.html",
     // 解析webview的user-agent
 	"playUa": "",
     // 搜索地址
