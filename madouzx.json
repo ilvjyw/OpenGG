@@ -1,0 +1,84 @@
+{
+  "dcVipFlag": "true",
+  "pCfgJs": "https://javcaptain.com/static/js/playerconfig.js",
+  "pCfgJsR": "[\\W|\\S|.]*?MacPlayerConfig.player_list[\\W|\\S|.]*?=([\\W|\\S|.]*?),MacPlayerConfig.downer_list",
+  "dcShow2Vip": {},
+  "dcPlayUrl": "true",
+	"ua": "",
+    // 首页地址 用于获取 分类和首页推荐 
+	"homeUrl": "http://madouzx.cyou",
+    // 手动设置分类，如果手动设置了分类则不使用上面的分类xpath获取分类  例如 "cateManual": {"电影": "1", "电视剧": "2"},
+	"cateManual": {"传媒": "1","中文": "2","日本":"3", "欧美":"4", "伦理": "5"},
+    // 首页推荐视频的节点
+	"homeVodNode": "//li[@class='format-video']",
+    // 首页推荐视频的名称
+	"homeVodName": "/div[@class='blog-pic']/a/img/@alt",
+    // 二次处理正则
+    "homeVodNameR": "",
+    // 首页推荐视频的id
+	"homeVodId": "/div[@class='blog-pic']/a/@href",
+    // 二次处理正则
+	"homeVodIdR": "/index.php/vod/play/id/(\\S+).html",
+    // 首页推荐视频的图片
+	"homeVodImg": "/div[@class='blog-pic']/a/img/@src",
+    // 二次处理正则
+   "homeVodImgR": "",
+    // 首页推荐视频的简介
+	"homeVodMark": "/div[@class='listing-content']/div[contains(@class,'categories-elm')]/a/text()",
+    // 二次处理正则
+    "homeVodMarkR": "",
+    // 分类页地址 {cateId} 分类id {catePg} 当前页
+	"cateUrl": "http://madouzx.cyou/index.php/vod/type/id/{cateId}/page/{catePg}.html",
+    // 同上面的homeVod字段 分类列表中的视频信息
+	"cateVodNode": "//li[contains(@class,'format-video')]",
+	"cateVodName": "/div[@class='blog-pic']/a/img/@alt",
+	"cateVodId": "/div[@class='blog-pic']/a/@href",
+	"cateVodIdR": "/index.php/vod/play/id/(\\S+).html",
+	"cateVodImg": "/div[@class='blog-pic']/a/img/@src",
+	"cateVodImgR": "",
+	"cateVodMark": "/div[@class='listing-content']/div[contains(@class,'categories-elm')]/a/text()",
+    // 详情页地址 用于获取详情页信息 及 播放列表和地址
+	"dtUrl": "http://madouzx.cyou/index.php/vod/play/id/{vid}.html",
+    // 详情节点
+	"dtNode": "//body",
+    // 视频名
+	"dtName": "//header[@class='entry-header']/h1[contains(@class,'entry-title')]/text()",
+	"dtNameR": "",
+    // 视频分类
+	"dtCate": "//div[contains(@class,'categories-elm')]/a/text()",
+	"dtCateR": "",
+    // 视频图片
+	"dtImg": "//body",
+	"dtImgR": "",
+    // 播放源节点
+	"dtFromNode": "//div[@class='down-title']/h2",
+    // 播放源名称
+	"dtFromName": "/text()",
+    // 二次处理正则
+	"dtFromNameR": "",
+    // 播放列表节点
+	"dtUrlNode": "//div[@class='video_list fn-clear']",
+    // 播放地址节点
+	"dtUrlSubNode": "/a",
+    // 播放地址
+	"dtUrlId": "/@href",
+    // 二次处理正则
+	"dtUrlIdR": "/index.php/vod/play/id/(\\S+).html",
+    // 剧集名称
+	"dtUrlName": "/text()",
+    // 二次处理正则
+	"dtUrlNameR": "",
+    // 播放页面的地址 {playUrl} 对应上面 dtUrlId 获取到的地址
+  "playUrl": "http://madouzx.cyou/index.php/vod/play/id/{playUrl}.html",
+    // 解析webview的user-agent
+	"playUa": "",
+    // 搜索地址
+	"searchUrl": "http://madouzx.cyou/index.php/vod/search.html?wd={wd}",
+    // 同上面的homeVod字段 搜索结果中的视频信息, 这里有对苹果cms suggest搜索接口的特殊支持，参考示例中的极品影视
+	"scVodNode": "//li[@class='format-video']",
+	"scVodName": "/div[@class='blog-pic']/a/img/@alt",
+	"scVodId": "/div[@class='blog-pic']/a/@href",
+	"scVodIdR": "/index.php/vod/play/id/(\\S+).html",
+	"scVodImg": "/div[@class='blog-pic']/a/img/@src",
+	"scVodMark": "/div[@class='listing-content']/div[contains(@class,'categories-elm')]/a/text()"
+}
