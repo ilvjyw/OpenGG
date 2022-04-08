@@ -1,4 +1,5 @@
 {"sites":[
+  {"key":"csp_jpvhub","name":"jpvhub需本地接口🔞","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://192.168.1.4:8849/v1.vod"},
   {"key":"csp_xpath_madouzx","name":"madouzx🔞(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://hk1.monika.love/ilvjyw/OpenGG/master/madouzx.json"}
   ,{"key":"csp_xpath_javcaptain","name":"javcaptain🔞(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://hk1.monika.love/ilvjyw/OpenGG/master/javcaptain.json"}
 ],
