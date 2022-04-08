@@ -1,4 +1,6 @@
 {"sites":[
+   {"key":"csp_xpath_madouzx","name":"madouzx🔞(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://hk1.monika.love/ilvjyw/OpenGG/master/madouzx.json"}
+],
   {"key":"csp_xpath_javcaptain","name":"javcaptain🔞(XP)","type":3,"api":"csp_XPathFilter","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://hk1.monika.love/ilvjyw/OpenGG/master/javcaptain.json"}
 ],
   "lives":[
@@ -131,7 +133,7 @@
   ],
 
 
-  "wallpaper":"https://i.ibb.co/9rcmg7n/cat.jpg","spider":"http://vod.98nb.com/api/1_custom_spider.jar"
+  "wallpaper":"https://i.ibb.co/9rcmg7n/cat.jpg","spider":"https://mo-xiao.coding.net/p/c/d/c/git/raw/master/jar/custom_spider.jar;md5;01a4ac9109a0602124cee4feddc1971e"
   //http://vod.98nb.com/api/1_custom_spider.jar "https://mo-xiao.coding.net/p/c/d/c/git/raw/master/jar/custom_spider.jar;md5;01a4ac9109a0602124cee4feddc1971e"
 
 }
